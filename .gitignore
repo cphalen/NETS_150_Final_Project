@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Do not upload CSV data
 data.csv
+
+# For macOS users
+.DS_Store
