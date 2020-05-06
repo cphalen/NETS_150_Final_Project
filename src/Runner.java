@@ -4,7 +4,7 @@ import java.util.Map;
 public class Runner {
 	public static void main(String[] args) {
 		PageRank.loadUserMap();
-		//PageRank.runPageRank();
+		PageRank.runPageRank();
 		Map<Long, User> userMap = PageRank.userMap;
 		
 		//find the 100 users with highest page rank
